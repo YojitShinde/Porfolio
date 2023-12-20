@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Silkscreen&display=swap');
+
+.main-box{
+    margin: 1em;
+}
+.name{
+    padding-top: 1.5in;
+    font-family: 'PT Serif', serif;
+    font-size: 7.0em;
+    text-align: center;
+}
+.designation{
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 2.5em;
+    text-align: center;
+}
+.sub-box{
+    padding-top: 1in;
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.topics{
+    text-align: center;
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 1.2em;
+}
+
+@media only screen and (max-width:690px){
+    .name{
+        padding-top: 1in;
+        font-size: 5em;
+        text-align: center;
+    }
+    .designation{
+        font-size: 1.8em;
+        text-align: center;
+    }
+    .sub-box{
+        padding-top: 0.5in;
+        grid-template-columns: auto;
+    }
+    .topics{
+        font-size: 1em;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .name{
+        padding-top: 1in;
+        font-size: 4em;
+        text-align: center;
+    }
+    .designation{
+        font-size: 1.3em;
+        text-align: center;
+    }
+    .sub-box{
+        padding-top: 0.3in;
+        grid-template-columns: auto;
+    }
+    .topics{
+        font-size: 0.7em;
+    }
+}
+
+@media only screen and (max-width:405px){
+    .name{
+        padding-top: 1in;
+        font-size: 3em;
+        text-align: center;
+    }
+    .designation{
+        font-size: 1.1em;
+        text-align: center;
+    }
+    .sub-box{
+        padding-top: 0.3in;
+        grid-template-columns: auto;
+    }
+    .topics{
+        font-size: 0.7em;
+    }
+}
+
+@media only screen and (max-width:315px){
+    .name{
+        padding-top: 1in;
+        font-size: 1.9em;
+        text-align: center;
+    }
+    .designation{
+        font-size: 0.7em;
+        text-align: center;
+    }
+    .sub-box{
+        padding-top: 0.1in;
+        grid-template-columns: auto;
+    }
+    .topics{
+        font-size: 0.5em;
+    }
+}
+
+@media only screen and (max-width:210px){
+    .name{
+        padding-top: 1in;
+        font-size: 1.5em;
+        text-align: center;
+    }
+    .designation{
+        font-size: 0.5em;
+        text-align: center;
+    }
+    .sub-box{
+        padding-top: 0.1in;
+        grid-template-columns: auto;
+    }
+    .topics{
+        font-size: 0.3em;
+    }
+}

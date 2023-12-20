@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Silkscreen&display=swap');
+
+.vertical-nav{
+    padding-top: 15rem;
+    min-width: 17rem;
+    width: 17rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+}
+.nav-item{
+    font-family: 'Silkscreen', sans-serif;
+    color: #3578ff;
+}
+.about-header{
+    font-family: 'PT Serif', serif;
+    font-size: 3.5em;
+}
+.about-subheader{
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 1.6em;
+    padding-bottom: 2em;
+}
+.intro{
+    font-family: 'Silkscreen', sans-serif;
+    padding-bottom: 2em;
+}
+.resume-box{
+    border-top: solid;
+    border-bottom: solid;
+}
+.resume-header{
+    font-family: 'PT Serif', serif;
+    font-size: 2em;
+}
+.resume-link{
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 2;
+}
+.about-section{
+    display: grid;
+    grid-template-columns: auto auto;
+}
+.about-me-header{
+    font-family: 'PT Serif', serif;
+    font-size: 2em;
+}
+.my-img-div{
+    grid-column-start: 0;
+    grid-column-end: 1;
+}
+.yojitshinde-pic1{
+    width: 280px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.about-body{
+    font-family: 'Silkscreen', sans-serif;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+.page-content{
+    width: calc(100% -17rem);
+    margin-left: 17rem;
+    transition: all 0.4s;
+}
+#sidebar.active{
+    margin-left: -17rem;
+}
+#content.active{
+    width: 100%;
+    margin: 0;
+}
+.text-uppercase{
+    letter-spacing: 0.1em;
+}
+
+@media only screen and (max-width:1200px){
+    .about-section{
+        display: grid;
+        grid-template-columns: auto;
+    }
+    .my-img-div{
+        grid-column-start: 0;
+        grid-column-end: 2;
+        text-align: center;
+    }
+    .about-body{
+        font-family: 'Silkscreen', sans-serif;
+        grid-column-start: 0;
+        grid-column-end: 2;
+    }
+}
+
+@media only screen and (max-width:690px){
+    #sidebar{
+        margin-left: -17rem;
+    }
+    #sidebar.active{
+        margin-left: 0;
+    }
+    #content{
+        width: 100%;
+        margin: 0;
+    }
+    #content.active{
+        margin-left: 17rem;
+        width: calc(100% - 17rem);
+    }
+    .yojitshinde-pic1{
+        width: 180px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+}
+
+@media only screen and (max-width:500px){
+    .about-header{
+        font-size: 2.6em;
+    }
+    .about-subheader{
+        font-size: 1.3em;
+    }
+    .intro{
+        font-size: small;
+    }
+    .about-body{
+        font-size: small;
+    }
+    .resume-header{
+        font-size: 1.5em;
+    }
+    .about-me-header{
+        font-size: 1.5em;
+    }
+    .resume-link{
+        font-size: small;
+    }
+}
+
+@media only screen and (max-width:405px){
+    .about-header{
+        font-size: 2.1em;
+    }
+    .about-subheader{
+        font-size: 1.1em;
+    }
+    .intro{
+        font-size: smaller;
+    }
+    .about-body{
+        font-size: smaller;
+    }
+    .resume-header{
+        font-size: 1.4em;
+    }
+    .about-me-header{
+        font-size: 1.4em;
+    }
+    .resume-link{
+        font-size: smaller;
+    }
+}
+
+@media only screen and (max-width:315px){
+    .yojitshinde-pic1{
+        width: 115px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+    .about-header{
+        font-size: 1.9em;
+    }
+    .about-subheader{
+        font-size: 1em;
+    }
+    .intro{
+        font-size: x-small;
+    }
+    .about-body{
+        font-size: x-small;
+    }
+    .resume-header{
+        font-size: 1.2em;
+    }
+    .about-me-header{
+        font-size: 1.2em;
+    }
+    .resume-link{
+        font-size: x-small;
+    }
+}
+
+@media only screen and (max-width:280px){
+    .about-header{
+        font-size: 1em;
+    }
+    .about-subheader{
+        font-size: 0.5em;
+    }
+    .intro{
+        font-size: 0.4em;
+    }
+    .about-body{
+        font-size: 0.4em;
+    }
+    .resume-header{
+        font-size: 0.9em;
+    }
+    .about-me-header{
+        font-size: 1em;
+    }
+    .resume-link{
+        font-size: xx-small;
+    }
+}

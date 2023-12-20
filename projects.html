@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Yojit Shinde</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Styles CSS -->
+    <link rel="stylesheet" href="css/projects.css">
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+  </head>
+  <body>
+    <!--Sidebar-->
+    <div class="vertical-nav bg-white" id="sidebar">
+      <ul class="nav flex-column bg-white mb-0">
+         <li class="nav-item">
+          <a href="index.html" class="nav-link">
+            <i class="mr-3"></i>
+            Home
+          </a>
+         </li> 
+         <li class="nav-item">
+          <a href="about.html" class="nav-link">
+            <i class="mr-3"></i>
+            About
+          </a>
+         </li> 
+         <li class="nav-item">
+          <a href="experience.html" class="nav-link">
+            <i class="mr-3"></i>
+            Experience
+          </a>
+         </li> 
+         <li class="nav-item">
+          <a href="projects.html" class="nav-link">
+            <i class="mr-3"></i>
+            Projects
+          </a>
+         </li> 
+         <li class="nav-item">
+          <a href="contact.html" class="nav-link">
+            <i class="mr-3"></i>
+            Contact
+          </a>
+         </li> 
+      </ul>
+    </div>
+
+    <!--Page Content-->
+    <div class="page-content p-5" id="content">
+      <button id="sidebarCollapse" type="button" onclick="toggleBtnClicked()" class="btn btn-light bg-white rounded-pill shadow-sm px-4 mb-4"><i class="fa fa-bars mr-2"></i><small class="text-uppercase font-weight-bold">Toggle</small></button>
+      <div class="headers-1">
+        <h2 class="text-dark projects-header">My Projects</h2>
+      </div>
+      <div class="intro">
+        <p>
+          Below you'll find some of my favorite projects I've worked on. I hope you like them :)<br><br>
+        </p>
+      </div>
+      <div class="resume-box">
+        <div class="headers-2">
+          <h2 class="text-dark resume-header">Need my resume?</h2>
+          <label class="resume-link"><a href="assets/YojitShinde-Resume.pdf">Click here to download it</a></label>
+        </div>
+      </div>
+      <div class="projects-section my-5">
+        <div class="headers-3">
+          <h2 class="text-dark project-header">Placeable</h2>
+        </div>
+        <div class="project-body pl-3 pt-3">
+          <p>
+            The primary objective of this web-app is to simplify the placement process for students, 
+            placement officers, and companies, by providing a platform that makes it easy to manage job 
+            postings, applications and student queries.
+          </p>
+        </div>
+        <div class="my-vid-div pt-3 pb-3">
+          <video autoplay muted class="project-vid" src="assets/PlaceableDemo.mp4"></video>
+        </div>
+        <div class="project-body pl-3 pt-3">
+          <p>
+            <!-- Additionally, the web-app aims to improve communication 
+            between all parties involved, reduce the time and effort required to complete the placement process, 
+            and help students find suitable job opportunities.<br><br> -->
+            This project was made using <b>Angular</b>, <b>Python (Django)</b> and <b>PostgreSQL</b>. The 
+            source-code can be found <a href="https://github.com/AKBuggy/Placeable">here</a>.
+          </p><br><br>
+        </div>
+        <div class="headers-3">
+          <h2 class="text-dark project-header">Desklet</h2>
+        </div>
+        <div class="project-body pl-3 pt-3">
+          <p>
+            This web-app tries to simplify the management and the tracking of Purchase Orders (POs),
+            Sales Orders (SOs) and Materials Received Notes (MRNs) for an enterprise. The web-app is 
+            equipped with an automated email-generation for the required PO, SO or MRN.
+          </p>
+        </div>
+        <div class="my-vid-div pt-3 pb-3">
+          <video autoplay muted class="project-vid" src="assets/DeskletDemo.mp4"></video>
+        </div>
+        <div class="project-body pl-3 pt-3">
+          <p>
+            This project was made using <b>Angular</b>, <b>Java (Spring)</b> and <b>MySQL</b>. The 
+            source-code can be found <a href="https://github.com/YojitShinde/Desklet">here</a>.
+          </p><br><br>
+        </div>
+        <div class="headers-3">
+          <h2 class="text-dark project-header">Doable</h2>
+        </div>
+        <div class="project-body pl-3 pt-3">
+          <p>
+            A Simple To-Do-List Application for Android Devices. The app consists of a handy 'Read List' 
+            feature to assist the visually impared. Additionally, users can share their list with the 'Share List' feature.
+          </p>
+        </div>
+        <div class="my-vid-div pt-3 pb-3">
+          <video autoplay muted class="project-vid" src="assets/DoableDemo.mp4"></video>
+        </div>
+        <div class="project-body pl-3 pt-3">
+          <p>
+            This project was made using <b>Android Studio</b> and <b>Java</b>. The 
+            source-code can be found <a href="https://github.com/YojitShinde/Doable">here</a>.
+          </p><br><br>
+        </div>
+      </div>
+    </div>
+    <!--scripts.js-->
+    <script src="js/scripts.js"></script>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+  </body>
+</html>

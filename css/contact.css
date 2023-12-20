@@ -1,0 +1,172 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Silkscreen&display=swap');
+
+.vertical-nav{
+    padding-top: 15rem;
+    min-width: 17rem;
+    width: 17rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+}
+.nav-item{
+    font-family: 'Silkscreen', sans-serif;
+    color: #3578ff;
+}
+.page-content{
+    width: calc(100% -17rem);
+    margin-left: 17rem;
+    transition: all 0.4s;
+}
+#sidebar.active{
+    margin-left: -17rem;
+}
+#content.active{
+    width: 100%;
+    margin: 0;
+}
+.text-uppercase{
+    letter-spacing: 0.1em;
+}
+.social-icons .social-icon {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    height: 3.5rem;
+    width: 3.5rem;
+    background-color: #495057;
+    color: #fff;
+    border-radius: 100%;
+    font-size: 1.5rem;
+    margin-right: 1.5rem;
+}
+.social-icons .social-icon:last-child {
+    margin-right: 0;
+}
+.social-icons .social-icon:hover {
+    background-color: black
+}
+.contact-header{
+    padding-top: 0.5em;
+    font-family: 'PT Serif', serif;
+    font-size: 2.5em;
+    padding-bottom: 1em;
+}
+.contact-body{
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 1.2em;
+    padding-bottom: 2em;
+}
+.resume-box{
+    border-top: solid;
+    border-bottom: solid;
+}
+.resume-header{
+    font-family: 'PT Serif', serif;
+    font-size: 2em;
+}
+.resume-link{
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 2;
+}
+
+@media only screen and (max-width:690px){
+    #sidebar{
+        margin-left: -17rem;
+    }
+    #sidebar.active{
+        margin-left: 0;
+    }
+    #content{
+        width: 100%;
+        margin: 0;
+    }
+    #content.active{
+        margin-left: 17rem;
+        width: calc(100% - 17rem);
+    }
+}
+
+@media only screen and (max-width:500px){
+    .contact-header{
+        font-size: 2em;
+    }
+    .contact-body{
+        font-size: small;
+    }
+    .resume-header{
+        font-size: 1.5em;
+    }
+    .resume-link{
+        font-size: small;
+    }
+    .social-icons .social-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 3.0rem;
+        width: 3.0rem;
+        background-color: #495057;
+        color: #fff;
+        border-radius: 100%;
+        font-size: 1.2rem;
+        margin-right: 1rem;
+    }
+}
+
+@media only screen and (max-width:405px){
+    .contact-header{
+        font-size: 1.7em;
+    }
+    .contact-body{
+        font-size: x-small;
+    }
+    .resume-header{
+        font-size: 1.2em;
+    }
+    .resume-link{
+        font-size: x-small;
+    }
+    .social-icons .social-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 2.8rem;
+        width: 2.8rem;
+        background-color: #495057;
+        color: #fff;
+        border-radius: 100%;
+        font-size: 1.2rem;
+        margin-right: 1rem;
+    }
+}
+
+@media only screen and (max-width:280px){
+    .contact-header{
+        font-size: 1.3em;
+    }
+    .contact-body{
+        font-size: xx-small;
+    }
+    .resume-header{
+        font-size: 1em;
+    }
+    .resume-link{
+        font-size: xx-small;
+    }
+    .social-icons .social-icon {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        height: 2.3rem;
+        width: 2.3rem;
+        background-color: #495057;
+        color: #fff;
+        border-radius: 100%;
+        font-size: 1rem;
+        margin-right: 0.8rem;
+    }
+}

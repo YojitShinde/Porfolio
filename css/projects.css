@@ -1,0 +1,197 @@
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=PT+Serif:wght@700&family=Silkscreen&display=swap');
+
+.vertical-nav{
+    padding-top: 15rem;
+    min-width: 17rem;
+    width: 17rem;
+    height: 100vh;
+    position: fixed;
+    top: 0;
+    left: 0;
+    box-shadow: 3px 3px 3px rgba(0, 0, 0, 0.1);
+    transition: all 0.4s;
+}
+.nav-item{
+    font-family: 'Silkscreen', sans-serif;
+    color: #3578ff;
+}
+.page-content{
+    width: calc(100% -17rem);
+    margin-left: 17rem;
+    transition: all 0.4s;
+}
+#sidebar.active{
+    margin-left: -17rem;
+}
+#content.active{
+    width: 100%;
+    margin: 0;
+}
+.text-uppercase{
+    letter-spacing: 0.1em;
+}
+.projects-header{
+    padding-top: 0.5em;
+    font-family: 'PT Serif', serif;
+    font-size: 2.5em;
+    padding-bottom: 1em;
+}
+.intro{
+    font-family: 'Silkscreen', sans-serif;
+    padding-bottom: 2em;
+}
+.resume-box{
+    border-top: solid;
+    border-bottom: solid;
+    padding-top: 3vh;
+    padding-bottom: 3vh;
+}
+.resume-header{
+    font-family: 'PT Serif', serif;
+    font-size: 2em;
+}
+.resume-link{
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 2;
+}
+/* .projects-section{
+    display: grid;
+    grid-template-columns: auto auto;
+} */
+.project-header{
+    font-family: 'PT Serif', serif;
+    font-size: 2em;
+}
+.my-vid-div{
+    text-align: center;
+}
+.project-vid{
+    width: 600px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+}
+.project-body{
+    font-family: 'Silkscreen', sans-serif;
+    grid-column-start: 1;
+    grid-column-end: 2;
+}
+
+@media only screen and (max-width:1200px){
+    .project-vid{
+        width: 450px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+}
+
+@media only screen and (max-width:1000px){
+    .project-vid{
+        width: 350px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+    .projects-header{
+        font-size: 1.8em;
+    }
+    .intro{
+        font-size: small;
+    }
+    .project-header{
+        font-size: 1.5em;
+    }
+    .project-body{
+        font-size: small;
+    }
+    .resume-header{
+        font-size: 1.5em;
+    }
+    .resume-link{
+        font-size: small;
+    }
+}
+
+@media only screen and (max-width:800px){
+    .project-vid{
+        width: 250px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+    .projects-header{
+        font-size: 1.8em;
+    }
+    .intro{
+        font-size: x-small;
+    }
+    .project-header{
+        font-size: 1.3em;
+    }
+    .project-body{
+        font-size: x-small;
+    }
+    .resume-header{
+        font-size: 1.3em;
+    }
+    .resume-link{
+        font-size: x-small;
+    }
+}
+
+@media only screen and (max-width:690px){
+    #sidebar{
+        margin-left: -17rem;
+    }
+    #sidebar.active{
+        margin-left: 0;
+    }
+    #content{
+        width: 100%;
+        margin: 0;
+    }
+    #content.active{
+        margin-left: 17rem;
+        width: calc(100% - 17rem);
+    }
+}
+
+@media only screen and (max-width:405px){
+    .project-vid{
+        width: 200px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+}
+
+@media only screen and (max-width:280px){
+    .project-vid{
+        width: 150px;
+        border: 1px solid #ddd;
+        border-radius: 4px;
+    }
+    .projects-header{
+        font-size: 1em;
+        padding-bottom: 0.5em;
+    }
+    .intro{
+        font-size: 0.3em;
+        padding-bottom: 1em;
+    }
+    .resume-box{
+        border-top: solid;
+        border-bottom: solid;
+        padding-top: 1vh;
+        padding-bottom: 0.5vh;
+    }
+    .project-header{
+        font-size: 0.8em;
+    }
+    .project-body{
+        font-size: 0.3em;
+    }
+    .resume-header{
+        font-size: 0.8em;
+    }
+    .resume-link{
+        font-size: 0.3em;
+    }
+}
