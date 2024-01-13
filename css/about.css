@@ -63,6 +63,15 @@
     grid-column-start: 1;
     grid-column-end: 2;
 }
+.skills-header{
+    font-family: 'PT Serif', serif;
+    font-size: 2em;
+    padding-bottom: 1.2em;
+}
+.skills-body{
+    font-family: 'Silkscreen', sans-serif;
+    font-size: 1.5em;
+}
 .page-content{
     width: calc(100% -17rem);
     margin-left: 17rem;
