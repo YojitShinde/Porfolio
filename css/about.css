@@ -125,6 +125,15 @@
         border: 1px solid #ddd;
         border-radius: 4px;
     }
+    .skills-header{
+        font-family: 'PT Serif', serif;
+        font-size: 2em;
+        padding-bottom: 1.2em;
+    }
+    .skills-body{
+        font-family: 'Silkscreen', sans-serif;
+        font-size: 1.2em;
+    }
 }
 
 @media only screen and (max-width:500px){
@@ -149,6 +158,15 @@
     .resume-link{
         font-size: small;
     }
+    .skills-header{
+        font-family: 'PT Serif', serif;
+        font-size: 1.5em;
+        padding-bottom: 1.2em;
+    }
+    .skills-body{
+        font-family: 'Silkscreen', sans-serif;
+        font-size: 1em;
+    }
 }
 
 @media only screen and (max-width:405px){
@@ -172,6 +190,12 @@
     }
     .resume-link{
         font-size: smaller;
+    }
+    .skills-header{
+        font-size: 1.4em;
+    }
+    .skills-body{
+        font-size: 1em;
     }
 }
 
@@ -202,6 +226,12 @@
     .resume-link{
         font-size: x-small;
     }
+    .skills-header{
+        font-size: 1.2em;
+    }
+    .skills-body{
+        font-size: small;
+    }
 }
 
 @media only screen and (max-width:280px){
@@ -225,5 +255,11 @@
     }
     .resume-link{
         font-size: xx-small;
+    }
+    .skills-header{
+        font-size: 1em;
+    }
+    .skills-body{
+        font-size: x-small;
     }
 }
