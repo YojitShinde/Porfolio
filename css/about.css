@@ -53,7 +53,7 @@
     grid-column-start: 0;
     grid-column-end: 1;
 }
-.yojitshinde-pic1{
+.yojitshinde-pic{
     width: 280px;
     border: 1px solid #ddd;
     border-radius: 4px;
@@ -71,6 +71,16 @@
 .skills-body{
     font-family: 'Silkscreen', sans-serif;
     font-size: 1.5em;
+    padding-bottom: 0.5em;
+}
+.hobbies-header{
+    font-family: 'PT Serif', serif;
+    font-size: 2em;
+    padding-bottom: 1.2em;
+}
+.hobbies-body{
+    font-family: 'Silkscreen', sans-serif;
+    padding-bottom: 1.2em;
 }
 .page-content{
     width: calc(100% -17rem);
@@ -120,18 +130,16 @@
         margin-left: 17rem;
         width: calc(100% - 17rem);
     }
-    .yojitshinde-pic1{
+    .yojitshinde-pic{
         width: 180px;
         border: 1px solid #ddd;
         border-radius: 4px;
     }
     .skills-header{
-        font-family: 'PT Serif', serif;
         font-size: 2em;
         padding-bottom: 1.2em;
     }
     .skills-body{
-        font-family: 'Silkscreen', sans-serif;
         font-size: 1.2em;
     }
 }
@@ -159,13 +167,17 @@
         font-size: small;
     }
     .skills-header{
-        font-family: 'PT Serif', serif;
         font-size: 1.5em;
         padding-bottom: 1.2em;
     }
     .skills-body{
-        font-family: 'Silkscreen', sans-serif;
         font-size: 1em;
+    }
+    .hobbies-header{
+        font-size: 1.5em;
+    }
+    .hobbies-body{
+        font-size: small;
     }
 }
 
@@ -197,10 +209,16 @@
     .skills-body{
         font-size: 1em;
     }
+    .hobbies-header{
+        font-size: 1.4em;
+    }
+    .hobbies-body{
+        font-size: smaller;
+    }
 }
 
 @media only screen and (max-width:315px){
-    .yojitshinde-pic1{
+    .yojitshinde-pic{
         width: 115px;
         border: 1px solid #ddd;
         border-radius: 4px;
@@ -232,6 +250,12 @@
     .skills-body{
         font-size: small;
     }
+    .hobbies-header{
+        font-size: 1.2em;
+    }
+    .hobbies-body{
+        font-size: x-small;
+    }
 }
 
 @media only screen and (max-width:280px){
@@ -261,5 +285,11 @@
     }
     .skills-body{
         font-size: x-small;
+    }
+    .hobbies-header{
+        font-size: 1em;
+    }
+    .hobbies-body{
+        font-size: 0.4em;
     }
 }
