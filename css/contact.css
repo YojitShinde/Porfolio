@@ -61,8 +61,23 @@
     padding-bottom: 2em;
 }
 .resume-box{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
     border-top: solid;
     border-bottom: solid;
+}
+.printer{
+    width: 55px;
+}
+.resume-left{
+    grid-column-start: 0;
+    grid-column-end: 1;
+    padding-right: 1em;
+}
+.resume-right{
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 .resume-header{
     font-family: 'PT Serif', serif;
@@ -126,6 +141,9 @@
     }
     .resume-header{
         font-size: 1.2em;
+    }
+    .printer{
+        width: 45px;
     }
     .resume-link{
         font-size: x-small;

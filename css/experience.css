@@ -32,8 +32,23 @@
     letter-spacing: 0.1em;
 }
 .resume-box{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
     border-top: solid;
     border-bottom: solid;
+}
+.printer{
+    width: 55px;
+}
+.resume-left{
+    grid-column-start: 0;
+    grid-column-end: 1;
+    padding-right: 1em;
+}
+.resume-right{
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 .resume-header{
     font-family: 'PT Serif', serif;
@@ -88,6 +103,9 @@
     .resume-header{
         font-size: 1.5em;
     }
+    .printer{
+        width: 50px;
+    }
     .resume-link{
         font-size: small;
     }
@@ -106,6 +124,9 @@
     .resume-header{
         font-size: 1.2em;
     }
+    .printer{
+        width: 40px;
+    }
     .resume-link{
         font-size: x-small;
     }
@@ -123,6 +144,9 @@
     }
     .resume-header{
         font-size: 1em;
+    }
+    .printer{
+        width: 30px;
     }
     .resume-link{
         font-size: xx-small;

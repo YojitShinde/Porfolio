@@ -42,10 +42,25 @@
     padding-bottom: 2em;
 }
 .resume-box{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
     border-top: solid;
     border-bottom: solid;
     padding-top: 3vh;
     padding-bottom: 3vh;
+}
+.printer{
+    width: 55px;
+}
+.resume-left{
+    grid-column-start: 0;
+    grid-column-end: 1;
+    padding-right: 1em;
+}
+.resume-right{
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 .resume-header{
     font-family: 'PT Serif', serif;
@@ -132,6 +147,9 @@
     .resume-header{
         font-size: 1.3em;
     }
+    .printer{
+        width: 50px;
+    }
     .resume-link{
         font-size: x-small;
     }
@@ -159,6 +177,9 @@
         width: 200px;
         border: 1px solid #ddd;
         border-radius: 4px;
+    }
+    .printer{
+        width: 40px;
     }
 }
 

@@ -30,8 +30,23 @@
     padding-bottom: 2em;
 }
 .resume-box{
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: left;
     border-top: solid;
     border-bottom: solid;
+}
+.printer{
+    width: 55px;
+}
+.resume-left{
+    grid-column-start: 0;
+    grid-column-end: 1;
+    padding-right: 1em;
+}
+.resume-right{
+    grid-column-start: 1;
+    grid-column-end: 2;
 }
 .resume-header{
     font-family: 'PT Serif', serif;
@@ -67,6 +82,9 @@
     font-family: 'PT Serif', serif;
     font-size: 2em;
     padding-bottom: 1.2em;
+}
+.skill{
+    width: 50px;
 }
 .skills-body{
     font-family: 'Silkscreen', sans-serif;
@@ -160,6 +178,9 @@
     .resume-header{
         font-size: 1.5em;
     }
+    .printer{
+        width: 50px;
+    }
     .about-me-header{
         font-size: 1.5em;
     }
@@ -238,6 +259,9 @@
     .resume-header{
         font-size: 1.2em;
     }
+    .printer{
+        width: 40px;
+    }
     .about-me-header{
         font-size: 1.2em;
     }
@@ -273,6 +297,9 @@
     }
     .resume-header{
         font-size: 0.9em;
+    }
+    .printer{
+        width: 30px;
     }
     .about-me-header{
         font-size: 1em;
